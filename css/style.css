@@ -1,0 +1,573 @@
+
+    *{
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+   
+    body{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: 'Noto Sans', sans-serif;
+      color: #283377;
+      display: inline;
+      float: left;
+      width: 100%;
+      background-color: #f3f0f0;
+
+     
+}
+    body::selection{
+      background-color: #283377;
+      color: #fff;
+
+
+    }
+    header{
+      width: 90%;
+      height: 65px;
+      margin: 0 auto;
+      background-color:#283377;
+      display: flex;
+      
+    }
+    img{
+     width: 70%;
+     margin-left: 2%;
+     position: relative;
+     bottom: 5px;
+    }
+  main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .main_welcome{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 25px 0 25px 20px;
+         width: 90%;
+    }
+   
+   .welcome-section p{
+      color: #fff;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .welcome-section h1{
+      color:#283377;
+      font-size: 44px;
+    }
+#left_side{
+    display: block;
+    width: 50%;
+    height: 400px;
+    padding-right: 10px;
+}
+#right_side{
+    display: block;
+    width: 50%;
+}
+    .menu{
+      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2px;
+        margin:auto;
+       font-size: 24px;
+    }
+    .block{
+      position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 2px;
+        padding: 5px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 250px;
+        border-radius: 5%;
+        transform-style: preserve-3d;
+        transition: 0.25s ease;
+    }
+    .block:hover{
+        cursor: pointer;
+        padding: 20px;
+    }
+    #one{
+        background: rgb(223, 85, 75);
+    }
+    #two{
+        background: rgb(238, 158, 97);
+    }
+    #three{
+        background: rgb(208, 130, 214);
+    }
+    #four{
+        background: rgb(112, 211, 173);
+    }
+    .wrapper{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .about{
+    
+      position: relative;
+    padding: 25px;
+   background: rgba(255, 255, 255, 0.893);
+border-radius: 10px;
+opacity: 0.7;
+
+    }
+     h2{
+      font-family: 'Righteous', cursive;
+      font-size: 26px;
+    }
+    .about h2{
+      display: inline-block;
+      border-bottom: 3px solid rgb(223, 85, 75);
+      padding-bottom: 10px;
+    }
+    p{
+      font-size: 14px;
+      min-height: 50px;
+      overflow: hidden;
+    }
+  #more{
+    display: none;
+  }
+  button{
+    width: 150px;
+    padding: 15px;
+    border: rgb(223, 85, 75) 2px solid;
+    color:#702f7d;
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+  }
+  .container{
+    width: 25%;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* legend{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(112, 211, 173);
+  } */
+  /* #dws-input{
+    display: block;
+    margin: 10px;
+    
+  } */
+/*  
+
+  .dws-input input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+  
+  } */
+  /* .dws-input input:hover{
+    border: 3px solid #283377;
+    
+  } */
+  
+  /* .dws-submit input{
+    width: 100px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    margin-left:10px;
+    padding: 10px;
+    border: rgb(112, 211, 173) 2px solid;
+    color:#283377;
+    border-radius: 5px;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+  } */
+  /* .dws-submit input:hover{
+    border:rgb(112, 211, 173) 4px solid;
+  }
+  */
+  /* button#btn_1{
+    border: rgb(112, 211, 173) 2px solid;
+  }  */
+   
+ .opportunity{
+
+  position: relative;
+
+  margin-top: 10px;
+
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.893);
+border-radius: 10px;
+opacity: 0.7;
+ }  
+ .opportunity h2{
+  display: inline-block;
+ border-bottom: 3px solid rgb(112, 211, 173);
+ padding-bottom: 10px;
+ }
+ .container button{
+  border: 2px solid rgb(112, 211, 173);
+ }
+ .contact{
+
+  position: relative;
+  margin-top: 10px;
+
+  padding: 25px;
+
+background: rgba(255, 255, 255, 0.893);
+border-radius: 10px 10px 0 0;
+opacity: 0.7;
+}
+.contact h2{
+ display: inline-block;
+ border-bottom: 3px solid rgb(208, 130, 214);;
+ padding-bottom: 10px;
+}
+.wrapp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-contact_1,.block-contact_2{
+ padding: 15px;
+ width: 50%;
+}
+
+.fa-sm{
+  font-size: 25px;
+  margin-top: 10px;
+  color: #283377;
+ 
+}
+
+.job{
+
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10px;
+
+  padding: 25px;
+
+background: rgba(255, 255, 255, 0.893);
+border-radius: 10px;
+opacity: 0.7;
+
+}
+.job h2{
+  display: inline-block;
+  border-bottom: 3px solid  rgb(238, 158, 97);
+  padding-bottom: 10px;
+}
+.job span:hover{
+  border-bottom: 3px solid;
+}
+.block-jobs{
+ 
+
+ text-align: center;
+  display: grid;
+ grid-template-columns: 220px 220px 220px 220px;
+ justify-content: center;
+ grid-column-gap: 10px;
+}
+.remote-job{
+  border: #283377 1px solid rgb(238, 158, 97);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+}
+.remote-job:hover{
+  border: 3px solid #283377;
+  box-shadow: #29347cc2;
+}
+
+
+footer{
+  width: 90%;
+  height: 65px;
+ margin: 0 auto;
+ text-align: center;
+ line-height: 50px;
+ background-color: #283377;
+ color: #fff;
+}
+footer a:visited{
+  color:gray;
+}
+.footer-box{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  padding: 0 10px 0 10px;
+ 
+}
+
+
+
+
+@media (max-width: 767px) {
+  /* Головна секція */
+  .main_welcome {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    margin: 0 10px;
+  }
+  #left_side {
+    grid-row: 2;
+    
+  }
+  /* Навігаційне меню */
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  .block {
+    margin-top: 1rem;
+    margin-left: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    font-size: 14px;
+   line-height: 150px;
+  }
+
+ 
+  /* Секція "Про компанію" */
+  .about {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  /* Секція "Знайди роботу" */
+  .job {
+    text-align: center;
+    margin: 20px 10px;
+  }
+  .block-jobs {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .remote-job {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .remote-job img {
+    width: 60px;
+    height: 60px;
+  }
+  .remote-job h4 {
+    margin: 0;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  
+  /* Головна секція */
+  .main_welcome {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin: 0 auto;
+  }
+  /* Навігаційне меню */
+  .menu {
+    display: flex;
+   flex-direction: row;
+    justify-items: center;
+ margin-top: 20px;
+  }
+  .block {
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+   line-height: 150px;
+  }
+
+ 
+  
+  /* Секція "Про компанію" */
+  .about {
+  text-align: justify;
+  margin-bottom: 20px;
+  }
+  
+  /* Секція "Знайди роботу" */
+  .job {
+  /* text-align: center; */
+  margin: 20px 10px;
+  }
+  .block-jobs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  }
+  .remote-job {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  gap: 5px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .remote-job img {
+  width: 60px;
+  height: 60px;
+  }
+  .remote-job h4 {
+  margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main_welcome {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin: 0 auto;
+  }
+  /* Навігаційне меню */
+  .menu {
+    display: flex;
+   flex-direction: row;
+    justify-items: center;
+ margin-top: 20px;
+  }
+  .block {
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    font-size: 22px;
+   line-height: 200px;
+  }
+
+ 
+  
+  /* Секція "Про компанію" */
+  .about {
+  text-align: justify;
+  margin-bottom: 20px;
+  }
+  
+  /* Секція "Знайди роботу" */
+  .job {
+  margin: 20px 10px;
+  }
+  .block-jobs {
+  display: grid;
+  grid-template-columns: repeat(3);
+  gap: 10px;
+  margin-top: 10px;
+  }
+  .remote-job img {
+  width: 60px;
+  height: 60px;
+  }
+  .remote-job h4 {
+  margin: 0;
+  }
+}
+
+@media screen and (min-width:1440px) {
+      
+  .menu{
+    max-width: 520px;
+  
+}
+.remote-job{
+  width: 100%;
+}
+.block-jobs {
+  grid-template-columns: repeat(3, 1fr);
+}
+}
+@media screen and (min-width:1394px){
+  .main_welcome {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin: 0 auto;
+  }
+  /* Навігаційне меню */
+  .menu {
+    display: flex;
+   flex-direction: row;
+    justify-items: center;
+ margin-top: 20px;
+  }
+  .block {
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+   line-height: 250px;
+  }
+
+ 
+  
+  /* Секція "Про компанію" */
+  .about {
+  text-align: justify;
+  margin-bottom: 20px;
+  }
+  
+  /* Секція "Знайди роботу" */
+  .job {
+  margin: 20px 10px;
+  }
+  .block-jobs {
+  display: grid;
+  grid-template-columns: repeat(4);
+  gap: 10px;
+  margin-top: 10px;
+  }
+  .remote-job img {
+  width: 60px;
+  height: 60px;
+  }
+  .remote-job h4 {
+  margin: 0;
+  }
+  
+}

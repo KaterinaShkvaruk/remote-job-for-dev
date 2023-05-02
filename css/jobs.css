@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    color: #283377;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #f3f0f0;
+ }
+ header{
+    width: 90%;
+    height: 65px;
+    margin: 0 auto;
+    background-color:#283377;
+    display: flex;
+    justify-content: space-between;
+  }
+  img{
+   width: 70%;
+   position: relative;
+   bottom: 5px;
+  }
+
+  nav{
+    margin-right:2%;
+    margin-top: 20px;
+    
+  }
+  .topnav a{
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+.topnav a:hover{
+border-bottom: 3px solid rgb(223, 85, 75);
+}
+ 
+  main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+ 
+   
+  }
+  .jobRemote{
+    width: 90%;
+      margin: 0 auto;
+   
+  }
+  .wrapp-job{
+    position: relative;
+    padding: 25px;
+background: #fff;
+  }
+  .wrapp-job p{
+    width: 70%;
+    box-sizing: border-box;
+  }
+  .action{
+    display: flex;
+    padding: 10px;
+  }
+  button{
+    width: 150px;
+    padding: 15px;
+    border: rgb(223, 85, 75) 2px solid;
+    color:#702f7d;
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+  }
+  button a{
+    text-decoration: none;
+  }
+
+footer{
+    width: 90%;
+    height: 65px;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 50px;
+   background-color: #283377;
+   color: #fff;
+  }
+  
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 10px 0 10px;
+   
+  }
+
+  @media (max-width: 767px) {
+    /*  768px */
+    .header_logo img {
+    max-width: 150px;
+    }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1023px) {
+    /*  769px to 1024px */
+    .header_logo img {
+    max-width: 200px;
+    }
+    }
+    
+    @media (min-width: 1024px) {
+    /*  1025px */
+    .header_logo img {
+    max-width: 250px;
+    }
+    }
