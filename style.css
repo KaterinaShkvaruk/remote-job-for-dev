@@ -66,6 +66,7 @@
     width: 50%;
     height: 400px;
     padding-right: 10px;
+
 }
 #right_side{
     display: block;
@@ -328,83 +329,6 @@ footer a:visited{
  
 }
 
-@media (min-width: 320px) {
-  .wrapper{
-    font-size: 10px;
-  }
-  .main_welcome {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    margin: 0 auto;
-  }
-  #left_side{
-    height: 50%;
-  }
-  #left_side h1{
-    font-size: 28px;
-  }
-  #left_side .typed{
-font-size: 12px;
-  }
-  #right_side{
-    width: 100%;
-
-  }
-  .menu {
-    width:70%;
-    height:auto;
-    justify-content: left;
-  }
-  .menu a{
-    font-size: 10px;
-  }
-  .block {
-    padding: 5px 10px;
-    font-size: 14px;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    line-height: 80px;
-  }
-  .about {
-    text-align: justify;
-    margin-bottom: 20px;
-    }
-    
-    /* Find job section*/
-    .job {
-    margin: 20px 10px;
-    }
-    .block-jobs {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    margin-top: 10px;
-    }
-    .remote-job {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto;
-    gap: 5px;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    }
-    .remote-job img {
-    width: 60px;
-    height: 60px;
-    }
-    .remote-job h4 {
-    margin: 0;
-    }
-    .footer-box p{
-      
-     font-size: 6px;
-    }
-   
-}
-
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
   
@@ -578,5 +502,83 @@ font-size: 12px;
   .remote-job h4 {
   margin: 0;
   }
+  
+@media screen and (min-width: 320px) {
+  .wrapper{
+    font-size: 10px;
+  }
+  .main_welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 0 auto;
+  }
+  #left_side{
+    height: 50%;
+  }
+  #left_side h1{
+    font-size: 28px;
+  }
+  #left_side .typed{
+font-size: 12px;
+  }
+  #right_side{
+    width: 100%;
+
+  }
+  .menu {
+    width:70%;
+    height:auto;
+    justify-content: left;
+  }
+  .menu a{
+    font-size: 10px;
+  }
+  .block {
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+  }
+  .about {
+    text-align: justify;
+    margin-bottom: 20px;
+    }
+    
+    /* Find job section*/
+    .job {
+    margin: 20px 10px;
+    }
+    .block-jobs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    }
+    .remote-job {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .remote-job img {
+    width: 60px;
+    height: 60px;
+    }
+    .remote-job h4 {
+    margin: 0;
+    }
+    .footer-box p{
+      
+     font-size: 6px;
+    }
+   
+}
+
   
 }
